@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container1{
+    color: white;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    gap: 10px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+p{
+    background-color: black;
+    border: 1px solid black;
+}
+.welcomeimg{
+    padding-left: 400px;
+}
+.exploreimg{
+    padding-left: 400px;
+    margin-bottom: 10px;
+}
+.Navigation{
+    background-color:black;
+   }
