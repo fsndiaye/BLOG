@@ -23,7 +23,37 @@ p{
 .exploreimg{
     padding-left: 400px;
     margin-bottom: 10px;
+    margin:0px;
+    width: 50%;
+    
 }
 .Navigation{
     background-color:black;
    }
+   .img1{
+       width: 100%;
+       padding-top: 10px;
+       padding-right: 10px;
+   }
+.readmore{
+background-color: black;
+}
+.readarticle{
+    background-color: #ea1538;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.readarticle:hover{
+    background: black;
+    transition: 0.1s;
+}
+
+.overview{
+
+    font-size:small;
+}
+.header{
+    font-size: xx-large;
+}
+
