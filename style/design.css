@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Josefin Sans', sans-serif;
+}
+.Navigation{
+    margin: 0px;
+    padding: 20px;
+   }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    color:white;
+    font-size: 28px;
+}
+span{
+    color:rgb(80, 80, 155);
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    list-style-type:none;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(80, 80, 155);
+    transition: .3s;
+}
+button{
+    border: none;
+    background: rgb(80, 80, 155);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform:scale(1.3);
+    cursor:pointer;
+}
+body{
+    background-color:black;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-right: 600px;
+}
+
+.p1{
+
+    margin: 10px;
+    margin-left: 50px;
+}
+em{
+    background-color: rgb(80, 80, 155);
+}
+.article{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.button2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 500px;
+    margin-right: 70px;
+}
+
+.animation{
+
+   /* width: 200px;*/ 
+    height: 200px;
+    background-color:rgb(80, 80, 155);
+    position: absolute;
+    /*left: 40%;*/
+    top: 40%; 
+    bottom: 200%;
+    border: 4px solid white;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/aircraft-design.jpg");
+    width: 66%;
+    height: 80%;
+    margin-left: 350px;
+    padding-bottom: 300px;
+
+}
+.animation:before{
+    content: "";
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    margin: -20px;
+    background-color: rgb(80, 80, 155);
+    z-index:-1;
+    animation: animate 4s linear infinite ;
+}
+@keyframes animate{
+    
+    0%,100% { clip-path: inset(0px 0px 215px 0px);}
+    25%{ clip-path: inset(0px 0px 0px 215px);}
+    50%{ clip-path: inset(215px 0px 0px 0px);}
+    75%{ clip-path: inset(0px 215px 0px 0px);}
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-right: 600px;
+    margin-bottom: 700px;
+}
+.article{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    color:whitesmoke;
+}
+h2{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    color: rgb(80, 80, 155);
+
+}
+.button2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 500px;
+    margin-right: 70px;
+}
