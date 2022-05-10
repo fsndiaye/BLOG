@@ -14,18 +14,21 @@ h3:hover{
 img{
     float: left;
 }
-h1{
+em{
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    font-family: 'Water Brush', cursive;
+    font-family: 'Water Brush', cursive; /* its okkk  */
     font-size: xx-large;
     
 }
+
+/*
 h1:hover{
     color:#ea1538;
     transition: 1s;
 }
+*/
 p{
     padding-left: 600px;
     padding-right: 100px;
@@ -45,6 +48,65 @@ margin-left: 600px;}
     padding-left: 100px;
     text-align: center;
 }
-.Navigation{
-    background-color:black;
-   }
+body{
+    background: black;
+    color: white;
+}
+
+
+
+
+em{
+    position: relative;
+    font-size: 50px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    width:100% ;
+    justify-content: center;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+@keyframes animate
+{
+  0%,18%,20%,50.1%,60.1%,65%,80.1%,90%,92.1%,100%
+  {
+      color: #fffefe;
+      text-shadow: none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,80.1%,90%,92.1%,100%
+  {
+      color: #fff;
+      text-shadow: 0 0 10px #ea1538,
+      0 0 20px #ea1538,
+      0 0 40px #ea1538,
+      0 0 80px #ea1538,
+      0 0 160px #ea1538;
+
+  }
+
+}
+
+body{
+    background-color: black;
+}
+
+
+
+   

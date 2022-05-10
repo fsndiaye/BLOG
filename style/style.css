@@ -60,15 +60,14 @@ button:hover{
 }
 #intro{
 
-    color:white;
     position: absolute;
     text-align: left;
     margin-top: 300px;
     margin-right: 1000px;
     margin-left: 200px;
-
+    color: white;
 }
 #intro:hover{
     color: #ea1538;
-    transition: 1s;
+    transition: .3s;
 }
