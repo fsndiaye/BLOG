@@ -32,6 +32,7 @@ h1:hover{
 p{
     padding-left: 600px;
     padding-right: 100px;
+    font-size: 25px;
 }
 .Txt2{
     padding-left: 10px;
@@ -76,7 +77,10 @@ h1{
     margin-bottom: 40px;
 }
 
-
+.Txt{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 
